@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Past Papers",
+      "description": "Download past exam papers to practice and prepare.",
+      "image": "images/examp.webp"
+    },
+    {
+      "title": "Study Tips",
+      "description": "Effective techniques to help you retain more info.",
+      "image": "images/study.webp"
+    },
+    {
+      "title": "Planner Templates",
+      "description": "Organize your study time with free printable planners.",
+      "image": "images/planner.webp"
+    },
+    {
+      "title": "Motivational Videos",
+      "description": "Boost your mood with inspirational study clips.",
+      "image": "images/motivation.webp"
+    }
+  ]
+  

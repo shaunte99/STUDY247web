@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Study247: Resources to help students succeed in exams."/>
+  <meta property="og:title" content="Study247 - Resources"/>
+  <meta property="og:description" content="Explore valuable study resources and tools to boost your learning."/>
+  <link rel="stylesheet" href="styles/resources.css"/>
+  <link rel="icon" href="favicon.ico" />
+  <title>Study247 | Resources</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Study247</h1>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Resources to Help You Succeed</h2>
+      <p>Explore the best resources to enhance your study sessions.</p>
+    </section>
+
+    <section id="resource-cards" class="card-container">
+      <!-- Resources will be loaded here by JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Study247. All rights reserved.</p>
+    <a href="attributions.html">Attributions</a>
+  </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Separate Resources JavaScript file -->
+  <script src="scripts/resources.js"></script>
+</body>
+</html>
